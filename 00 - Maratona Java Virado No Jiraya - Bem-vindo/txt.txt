@@ -1,0 +1,32 @@
+Destrinchando todo o curso!
+
+Parte introdutória (Básico)
+Aula 02 a 09 - Configuração do ambiente 
+Aula 10 a 14 - Tipos primitivos 
+Aula 15 a 19 - Operadores 
+Aula 20 a 26 - Estrutura condicionais 
+Aula 27 a 31 - Estrutura de repetição 
+Aula 32 a 38 - Arrays 
+
+Parte Intermediária 
+Aula 39 a 94 - Orientação a objeto 
+
+Parte Avançada 
+Aula 95 a 105 - Exceções 
+Aula 106 a 160 - Classes Utilitárias 
+Aula 161 a 182 - Coleções 
+Aula 183 a 188 - Generics 
+Aula 189 a 192 - Classes Internas 
+Aula 193 a 194 - Parametizando Comportamentos 
+Aula 195 a 197 - Lambdas 
+Aula 198 a 200 - Method Reference 
+Aula 201 a 202 - Optional 
+Aula 203 a 219 - Stream 
+Aula 220 a 228 - Threads
+Aula 229 a 245 - Concorrência 
+Aula 246 a 251 - Padrões de Projetos 
+Aula 252 a 279 - JDBC
+Aula 280 a 281 - Testes com jUNIT 
+Aula 282 - Atualização JDK
+Aula 283 - Record class
+Aula 284 - Pattern Matching for instanceof 

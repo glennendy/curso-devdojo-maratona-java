@@ -1,0 +1,22 @@
+Aula 02 - Como Java Funciona
+
+Java conhecido pela expressão "Escreva uma vez, code em qualquer lugar"
+
+JVM - JAVA VIRTUAL MARCHINE 
+
+Tem que baixar a maquina virtual em cada sistema operacional, Windowns, Linux, MacOS.
+
+Passo a passo de como funciona o java!
+
+PASSO 1- CRIAR O APP, que recebe o nome de APP.JAVA
+PASSO 2- Faz a compilação que é o JAVAC
+PASSO 3- Transformando em JAVA.CLASS
+PASSO 4- É mandando para a maquina virtual 
+
+         JAVAC                                            -WINDOWNS 
+APP.JAVA ------> APP.CLASS -----> MAQUINA VIRTUAL ------> -LINUS
+          JDK                                             -MACOS
+
+JDK - Kit de desenvolvimento virtual, se quiser desenvolver com JAVA.
+
+JRE - Ambiente de excução, se quiser somente executar.

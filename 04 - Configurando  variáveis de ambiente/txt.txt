@@ -1,0 +1,7 @@
+04 - Configurando variaveis de ambiente
+
+Configurando as variáveis, usando as "funções":
+
+C:\Program Files\Java\jdk-15-0-1
+
+%JAVA_HOME%\bin

@@ -1,0 +1,19 @@
+Aula - 05 - Fazendo compilação manualmente 
+
+public class OlaDevDojo {
+	public static void main(String[] args){
+		System.out.println("KA-ME-HA-ME-HAAA");
+	}
+}
+
+Após abrir o CMD, copia o comando javac + nome da class (Isso vai fazer a compilação do arquivo)
+
+Obs.: O nome da class tem que ser copiado exatamente igual está no arquivo
+
+Obs.: Quando for salvar o arquivo, o nome dele tem quer igual o nome da class. 
+(Quando salvar no arquivo, tem que colocar a extensão .java)
+
+Caso faça alguma alteração no código, tem que fazer a compilação novamente para que altere a class. 
+(tem que dar um javac novamente), caso não faça, irá dar erro no cmd. 
+
+Obs.: Caso queira limpar o cmd, é só digitar o comando cls.  

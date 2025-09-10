@@ -1,0 +1,11 @@
+Aula - 07
+
+Palavras reservadas não pode utilizar para identificar o que são variáveis
+
+Configuração do IntelliJ e primeiros comandos usando a public class da aula 05
+
+public class OlaDevDojo {
+    public static void main(String[] args) {
+        System.out.println("KA-ME-HA-ME-HAAA");
+    }
+}

@@ -1,0 +1,22 @@
+Aula - 09 - comentários 
+
+Comentários são pedaçoes de textos que escreve no código que não afeta o código em si, são apenas informativos.
+
+Tem três tipos de comentários no java.
+
+comentário em linha:
+
+// tudo que estiver a direita do // é comentário
+
+Comentário de multiplas linhas:
+
+/* e termina com */
+
+Comentário javadoc:
+
+Inicia assim:  
+/** e finaliza assim
+*
+*/
+
+ctrl + alt + q --> formata a linha  

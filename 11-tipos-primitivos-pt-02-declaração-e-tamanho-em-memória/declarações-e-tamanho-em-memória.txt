@@ -1,0 +1,10 @@
+Aula 11- Tipos primitivos pt 02 - declaração e tamanho em memória
+
+byte > Armazena números inteiros de -128 a 127
+short > Armazena números inteiros de -32.768 a 32.767
+int > Armazena números inteiros de -2.147.483.648 a 2.147.483.647
+long > Armazena números inteiros de -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
+float > Armazena números fracionários. Suficiente para armazenar de 6 a 7 dígitos decimais.
+double > Armazena números fracionários. Suficiente para armazenar de 15 a 16 dígitos decimais.
+boolean > Armazena valores verdadeiros ou falsos
+char > Armazena um único caractere/letra ou valores ASCII

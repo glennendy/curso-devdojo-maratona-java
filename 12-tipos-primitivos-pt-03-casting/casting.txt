@@ -1,0 +1,18 @@
+Aula 12 - tipos primitivos - casting
+
+Casting - é um processo de converter uma variável de um tipo para outro. 
+
+Ele vai forçar que um valor que não era para aquela variável, fique nela mesmo sem suportar.
+
+Para fazer isso, coloca entre parentese a variável. 
+
+Ex: int idade = 10;
+
+Esse valor cabe normalmente.
+
+int idade = (int) 10000000000L;
+
+Esse valor não cabe no int, pois ele é um Long, mas por meio do casting, vai acontecer o processo
+de conversão, ai o valor que era para ser no long, vai caber no int, para isso tem que colocar (int)
+entre parenteses e no final do númemo, tem que colocar a primeira letra da variável que pertence o número, 
+no caso desse exemplo, é um long, então a letra do final é um L, deve ser em letra maiuscula.

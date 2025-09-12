@@ -1,0 +1,38 @@
+15-operadores-pt-01-aritiméticos
+
+Operadores são elementos do java que permitem você fazer operações.
+
+Operadores aritméticos são operadores que conseguem revisar matemática com seus números.
+
+Operadores básicos: + - / *
+
+Se quiser fazer um calculo é só fazer um string
+Exemplo:
+
+int numero01 = 20;
+int numero02 = 40;
+
+Quando rodar a somar dos dois irá dar 60.
+
+numero01+numero02 
+
+Se quiser colocar uma mensagem como por exemplo
+
+"Valor é "+numero01+numero02
+
+assim, não vai retornar o 60, pois dessa forma que está ai, está concaternado(juntando), 
+assim, irá retornar o valor 2040. Para retornar da forma correta, faz um nova string,
+colocando a variável com resultado da soma dos dois números.
+
+int resultado = numero01+numero02;
+
+na hora que for imprimir o resultado vai ficar assim:
+
+"valor é "+resultado; 
+
+dessa forma retornará: valor é 60.
+
+Outra forma que podemos fazer é a seguinte, quando for digitar a mensagem, depois do sinal de mais 
+colocamos a variável entre parenteses, e dessa forma retorna o valor corretamente.
+
+("valor é "+(numero01+numero02));

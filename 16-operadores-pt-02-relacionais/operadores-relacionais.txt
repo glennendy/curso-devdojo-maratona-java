@@ -1,0 +1,18 @@
+Aula 16 - Operadores pt 02 - Relacionais
+
+Operadores de resto é o sinal de %.
+
+Com esse operador vamos saber se o resto é par ou impar.
+
+Operadores lógicos sempre retorna valor boolean.
+
+< Menor
+> Maior 
+<= Menor igual 
+>= Maior igual 
+== Comparando 
+!= diferente 
+
+Quando for fazer boolean, coloca sempre o is no início do nome da variável.
+
+Exemplo: boolean isDezMaiorVinte

@@ -1,0 +1,30 @@
+package academy.devdojo.maratonajava.introducao;
+
+public class Aula04Operadores {
+    public static void main(String[] args) {
+        // Operadores aritmeticos são: + - / *
+        int numero01 = 20;
+        int numero02 = 40;
+        int resultado = numero01+numero02;
+        System.out.println("O valor é "+(numero01+numero02));
+
+        // % operador de resto
+
+        int resto = 20 % 7;
+        System.out.println(resto);
+
+        //Operadores lógicos: < > <= >= == ! =
+
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezMaiorQueVinte = 10 > 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezIgualDez = 10 == 10;
+        boolean isDezDiferenteDez = 10 != 10;
+        System.out.println("isDezMenorQueVinte "+isDezMenorQueVinte);
+        System.out.println("isDezMaiorQueVinte "+isDezMaiorQueVinte);
+        System.out.println("isDezIgualVinte "+isDezIgualVinte);
+        System.out.println("isDezIgualDez "+isDezIgualDez);
+        System.out.println("isDezDiferenteDez "+isDezDiferenteDez);
+
+    }
+}

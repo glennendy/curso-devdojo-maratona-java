@@ -1,0 +1,13 @@
+Aula 13 - Tipos primitivos pt 04 - Strings
+
+Strings não é um tipo de primitivos, é um tipo de referência.
+
+String é uma class 
+
+Tem que ter um identificador.
+
+String nome = "Glennendy";
+
+Tecla de atalho para o Println: escreve o comando sout + tab
+
+System.out.println()

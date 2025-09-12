@@ -1,0 +1,9 @@
+17 - Operadores pt 03 - Lógicos AND
+
+Tem três tipos de operadores lógicos.
+
+E = && (AND)
+OU = || (OR)
+Negação = !
+
+Sempre usa boolean 

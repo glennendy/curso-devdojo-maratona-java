@@ -1,0 +1,18 @@
+18 - Operadores pt 04 - Lógicos OR
+
+O operador OU(OR) compara dois valores.
+
+São duas condições 
+
+valor = cond1 || cond2
+
+Vai retornar ou uma ou outra como verdadeiro (true) ou falso (false)
+
+No operador lógico OU, só precisa que uma das condições sejam verdadeiro para retornar TRUE
+
+A   |    B     |    A ou B
+
+T        T            T
+T        F            T
+F        T            T 
+F        F            F

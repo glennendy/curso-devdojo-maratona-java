@@ -1,0 +1,35 @@
+Aula 19 - Operadores pt 05 - Atribuição
+
+Operadores de atribuição, vão atribuir algo a uma variável.
+
+=
++=
+-=
+*=
+%=
+
+Eles servem para fazer uma melhor escrita no código. 
+
+Para não colocar
+
+double bonus = 1000;
+bonus = bonus + 500;
+
+Colocamos 
+
+double bonus = 1000;
+bonus += 500;
+
+Se quiser usar para contar de 1 em 1, também funciona.
+
+int contador = 0;
+contador += 1;
+
+Assim vai somar mais 1.
+
+Tem outa forma para abreviar ainda mais, só colocar o sinal duas vezes de ++ ou de --
+
+int contador = 0;
+contador ++;
+
+Só vai funcinar para contar de 1 em 1.

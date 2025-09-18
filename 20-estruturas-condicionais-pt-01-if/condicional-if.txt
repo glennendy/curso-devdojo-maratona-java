@@ -1,0 +1,24 @@
+20 - Estruturas Condicionais pt 01 - IF
+
+IF significa em português SE 
+
+O resultado dentro do IF tem que ser boolean e tem que ser verdadeiro (true), 
+só vai executar se for verdadeiro. 
+
+Sempre vai ser usado para fazer comparação: se estiver sol, irei a praia, se não estiver sol,
+não irei a praia. 
+
+int idade = 17;
+boolean isComprarBebida = idade >= 18;
+if (isComprarBebida){
+	System.out.println("pode comprar bebidas alcólicas");
+}
+
+if (!isComprarBebida){
+	System.out.println("não pode comprar bebidas alcólicas");
+}
+
+Aqui nesse exemplo , irá retornar o if de baixo, dizendo que não pode comprar bebida, 
+nesse caso ai, fizemos a comparação, da idade para comprar bebida, se fosse igual ou maior 
+de 18 anos, poderia comprar bebida, ai caso a indicação seja falsa, retorna o segundo if, que 
+está com sinal de negação !, por isso nesse exemplo está dando falso

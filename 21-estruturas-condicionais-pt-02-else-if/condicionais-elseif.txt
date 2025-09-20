@@ -1,0 +1,26 @@
+21 - Estruturas Condicionais pt 02 - ELSE IF
+
+ELSE vai ser usado para caso o IF seja falso, retornar o ELSE, deixando o código mais 
+rápido, como fiz no código da aula 20, agora com a usabilidade do ELSE, apósa identificação 
+do IF, é só colocar o ELSE, após as chaves. 
+
+ELSE IF serve para várias confições para um IF, permite fazer a verificação de várias 
+condições no IF
+
+public static void main(String[] args) {
+        //idade < 15 categoria infantil
+        //idade >= 15 && idade < 18 categoria juvenil
+        //idade >= 18 categoria adulto
+        int idade = 20;
+        String categoria;
+
+        if (idade < 15){
+            categoria = "categoria infantil";
+        } else if (idade >= 15 && idade < 18){
+            categoria = "categoria juvenil";
+        } else {
+            categoria = "categoria adulto";
+        }
+        System.out.println(categoria);
+    }
+}

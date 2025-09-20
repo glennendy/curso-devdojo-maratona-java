@@ -1,0 +1,18 @@
+22 - Estruturas Condicionais pt 03 - Operador ternário
+
+Operador ternário foi criado no java, para simplificar condições IF ELSE, quando precisa fazer 
+associação diretamente a uma variável
+
+O operador ternário funciona da seguinte forma 
+
+variável = condição ? valor 1 : valor 2;
+
+public static void main(String[] args) {
+        // doar se salario > 5000
+        double salario = 7000;
+        String mensagemDoar = "Eu vou doar 500 para o devdojo";
+        String mensagemNaoDoar = "Eu não posso doar agora";
+        String resultado = salario > 5000 ? mensagemDoar : mensagemNaoDoar;
+
+        System.out.println(resultado);
+    }

@@ -1,0 +1,19 @@
+23 - Estruturas Condicionais pt 04 - Tabela Verdade e exercício
+
+Numa tabela verdade no java vamos utilizar E (&&) OU (||)
+
+No E(&&) para que seja verdade todas as condições tem que ser verdade, caso pelo menos uma seja falsa, 
+retorna falsa.
+
+V && V = V 
+V && F = F
+F && V = F
+F && F = F 
+
+No uso do OU (||) para que seja verdade, pelo menos uma das condições, tem que ser verdadeira, 
+para que seja falso, as duas condições tem que ser falsa.
+
+V || V = V
+V || F = V
+F || V = V
+F || F = F

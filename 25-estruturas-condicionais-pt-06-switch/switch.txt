@@ -1,0 +1,24 @@
+25 - Estruturas Condicionais pt 06 - Switch
+
+O switch funciona como o IF, ai para não usar o IF em determinadas situações e o código ficar ruim
+de ser lido, usaremos o switch.
+
+O switch é uma estrutura condicional e é uma palavra reservada, dentro do () colocaremos o que 
+queremos verificar, no exemplo da aula, foi a variável dia, para verificar o dia da semana, após colocar
+a variável, colocaremos o case, que funciona como se fosse o IF, então podemos usar vários case: case 1,
+case 2, case 3 e assim por diante, vai basicamente funcionar assim: quero verificar a switch(?) e vai 
+retornar um dos case, para que a execução pare exatamente na variável que queria, após cada case, colocamos 
+o break, que vai freiar a execução onde foi indicado na variável.
+
+O switch só funciona algumas variáveis: char, int, byte, shart, enum, String.
+
+Estrutura do switch 
+
+switch(variável){
+	case 1:
+		system.out.println("nome");
+		break;
+}
+
+O uso do default no final do código é para tornar o código padrão, ai usamos a mensagem "opção inválida"
+caso a pessoa coloque algum valor que não estivesse previsto, retornará o default.

@@ -1,0 +1,10 @@
+27 - Estruturas de Repetição pt 01 - Laços de repetição while, do while, for
+
+Essas são as estruturas mais simples para iterar alguma coisa. O resultado que for colocado entre os parenteses 
+tem que ser boolean.
+
+Quando utilizar um while precisa trocar o estado da variável dentro do corpo do while.
+
+O do while vai executar pelo menos uma vez mesmo que a condição seja falsa.
+
+O for é a estrutura de repetição mais usada no dia a dia, usada mais para contagem de listagem.

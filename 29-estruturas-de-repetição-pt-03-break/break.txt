@@ -1,0 +1,9 @@
+29 - Estruturas de Repetição pt 03 - Break
+
+Break vai servir para parar o laço de repetição.
+
+E pode parar a qualquer momento, quando for dado o comando.
+
+No exemplo que foi feito o número "base", foi o 50, se fosse deixar contar normalmente, ia contar do 
+0 até o 50, mas demos a condição para contar até o 25, se não tivesse dado o comando break, após a condição,
+não ia parar de contar, só ia parar quando chegasse no 50.

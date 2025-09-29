@@ -1,0 +1,28 @@
+32 - Arrays pt 01
+
+Os arrays são variáveis do tipo reference.
+
+Serve para simplificar o uso de muitos dados.
+
+Estrutura é a seguinte:
+
+int [] idades = null;
+
+Colocamos o tipo da variável que nesse caso é o int, os colchetes serve para mostrar que é 
+arrays de variável int.
+
+O indice no arrays vai até 2. Começa no 0, 1 e 2. Se colocar 3 por exemplo, não vai funcionar.
+
+int [] idades --> Essa parte no código é considerado Reference 
+new int [] --> essa parte é considerado Objeto.
+
+public static void main(String[] args) {
+        int[] idades = new int[3];
+    idades[0]=12;
+    idades[1]=14;
+    idades[2]=17;
+        System.out.println(idades[0]);
+        System.out.println(idades[1]);
+        System.out.println(idades[2]);
+
+}

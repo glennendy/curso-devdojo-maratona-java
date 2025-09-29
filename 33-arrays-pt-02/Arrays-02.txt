@@ -1,0 +1,11 @@
+33-arrays-pt-02
+
+Padrão de inicialização 
+
+Para os tipos byte, short, int, long, float e double o valor é 0.
+
+Para o tipo char o valor é \u0000 que remete a um espaço em branco. 
+
+Para boolean o valor será false.
+
+Para string o valor será null.

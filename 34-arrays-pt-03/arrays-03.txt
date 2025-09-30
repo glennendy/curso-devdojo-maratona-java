@@ -1,0 +1,19 @@
+34 - Arrays pt 03
+
+Como podemops iterar o arrays e pegar todo os valores ?
+
+Através do FOR conseguimos iterar sobre os valores dentro do arrays
+
+String [] nomes = new String [3]
+
+Aqui vamos colocar os três valores para imprimir, não precisamos mais escrever 3 vezes 
+o System.out.println, vamos só usar o FOR da seguinte forma:
+
+for(int i = 0; i < 3; i++){
+System.out.println(nomes[i]);
+
+Assim imprime os 3 valores 
+
+Podemos simplificar na hora da impressão dos valores, invés de colocar no FOR i < 3,
+que é a quantidade de valor do arrays, colocamos i < nome.length, vai ficar automático
+agora, pois serve para o tamanho do arrays sem precisar mexer mais no for.

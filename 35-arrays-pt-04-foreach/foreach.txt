@@ -1,0 +1,22 @@
+35 - Arrays pt 04 - Foreach
+
+Nessa aula vamos ver outras formas de inicialização
+
+Uma das forma é:
+
+int[] numero2 = {1,2,3,4,5};
+
+já atribuindo os valores ao arrays e ele vai automaticamente detectar qual o tamanho desse array 
+
+Outra forma é 
+
+int[] numero3 = new int []{1,2,3,4,5}
+
+É basicamente similar ao anterior
+
+O foreach é uma alternativa do for, apresenta uma forma mais simples de imprimir os valores 
+do array, a forma é assim 
+
+for(int i : numero2){
+	System.out.println(i);
+}

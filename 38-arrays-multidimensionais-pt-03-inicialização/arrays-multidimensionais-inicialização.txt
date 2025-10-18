@@ -1,0 +1,50 @@
+38 - Arrays Multidimensionais pt 03 - Inicialização
+
+A primeira forma de inicialização é a seguinte:
+
+arrayInt[0] = new int[2];
+
+Nesta forma o array normal de tamanho 2 é inicializado e atribuído a primeira posição
+do array multidimensional. 
+
+A segunda forma é a seguinte:
+
+arrayInt[1] = new int[]{1, 2, 3};
+
+Aqui segue a mesma lógica da inicialização de cima, só que com 3 valores. 
+
+A terceira forma de inicialização é a seguinte:
+
+primeiro criamos a seguinte variável 
+
+int[] array = {1, 2, 3, 4};
+
+e atribuímos ao nosso arrays na posição 2
+
+arrayInt[2] = array;
+
+Quarta forma de inicialização 
+
+int[][] arrayInt2 = {{1, 2}, {1, 2, 3}, {1, 2, 3, 4}};
+
+A inicialização aqui é diretamente com os valores fornecidos.
+
+
+public static void main(String[] args) {
+        int[] array = {1, 2, 3};
+
+        int[][] arrayInt = new int[3][];
+
+        arrayInt[0] = new int[2];
+        arrayInt[1] = array;
+        arrayInt[2] = new int[]{1, 2, 3, 4, 5, 6};
+
+        int[][] arrayInt2 = {{0, 0}, {1, 2, 3}, {1, 2, 3, 4, 5, 6}};
+
+        for (int[] arrayBase : arrayInt) {
+            System.out.println("\n---------");
+            for (int num : arrayBase) {
+                System.out.println(num + " ");
+            }
+        }
+    }

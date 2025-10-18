@@ -1,0 +1,18 @@
+36 - Arrays Multidimensionais pt 01
+
+São arrays de arrays, vai ter arrays linkados e pode navegar sobre todas as posições dele.
+
+O exemplo que iremos usar é com os meses do ano, no primeiro arrays guardamos os meses e no segundo
+array guardamos os dias do mês.
+
+A quantidade de [] equivale a quantidade de dimenssões que iremos trabalhar. 
+
+Se fosse um arrays normal, atribuía o valor da seguinte forma int[0] = 31;
+
+Já no arrays multidimensional fazemos da seguinte forma int[0][0] = 31; para os dias do mês de janeiro
+int[0][1] = 28; para os dias do mês de fevereiro, o código fica da seguinte forma:
+
+ int[][] dias = new int[3][3];
+        dias[0][0] = 31;
+        dias[0][1] = 28;
+        dias[0][2] = 31;

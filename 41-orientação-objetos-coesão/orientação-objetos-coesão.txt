@@ -1,0 +1,27 @@
+41 - Orientação Objetos - Coesão
+
+Coesão é algo que esta realacionado ao propósito das suas classes.
+A coesão num código, é nada mais nada menos, do que organizar bem o que vai ser "escrito", para
+não ficar repetindo algo que já está sendo dito no código, por exemplo.
+
+Se abro um classe com o nome ProfessorTest, as referências após, não preciso ficar colocando professor
+em tudo novamente, pq a classe já está mostrando que vamos falar sobre professor. 
+
+public class ProfessorTest01 {
+    public static void main(String[] args) {
+        Professor professor = new Professor();
+        professor.nomeProfessor = "Julio";
+        professor.idadeProfessor = 30;
+        professor.sexoProfessor = 'M';
+
+Não preciso ficar repetindo esse professor apoís cada referência, já está dizendo lá na classe que é 
+sobre professor que vamos "falar".
+
+public class ProfessorTest01 {
+    public static void main(String[] args) {
+        Professor professor = new Professor();
+        professor.nome = "Julio";
+        professor.idade = 30;
+        professor.sexo = 'M';
+
+Maneira correta, seria essa.

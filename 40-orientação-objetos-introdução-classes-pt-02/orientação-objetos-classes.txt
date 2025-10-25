@@ -1,0 +1,13 @@
+40 - Orientação Objetos - Introdução classes pt 02
+
+Aqui nos podemos fazer a linkagem a uma variável que está em outra classe ou não, podendo atribuir os
+valores na prória classe que estamos criando o código também 
+
+ estudante.nome = "Glennendy";
+        System.out.println(estudante.idade);
+        System.out.println(estudante.sexo);
+        System.out.println(estudante.nome);
+
+
+Essa parte ai, estamos atribuindo valor na própria classe, no estudante nome retorna "Glennendy", já 
+os outros estão linkados a outra classe, e retornaram os valores que estão lá.

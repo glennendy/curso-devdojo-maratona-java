@@ -1,0 +1,3 @@
+42 - Orientação Objetos - Exercício Classes
+
+Somente a resolução de exercícios.

@@ -1,0 +1,6 @@
+43 - Orientação Objetos - Referência de objetos
+
+Para referenciar ao mesmo espaço de memória, vamos fazer da seguinte forma, usando nosso exemplo que tem dois tipos
+de carros, carro1 e carro2, é só colocar "carro1 = carro2;" dessa forma irá referenciar e irá retornar somente 
+as informações do carro2, as informações do carro1, é pordida em memória. Da mesma forma se fizermos ao contrário,
+"carro2 = carro1;" retorna as informações do carro 1 e as informações do carro2 é perdida em memória.

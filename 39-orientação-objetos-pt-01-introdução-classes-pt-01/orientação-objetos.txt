@@ -1,0 +1,8 @@
+39 - Orientação Objetos pt 01 - Introdução classes pt 01
+
+A orientação a objeto foi criada para pegar o mundo real e colocar no mundo computacional, já estávamos
+trabalhando as variáveis do tipo primitivo com valor mais simples, por exemplo, int idade = 12; 
+clear sexo : m; String name = "Glennendy"; o objeto veio justamente para isso, juntar todos esses dados 
+e agrupar a uma memória, supondo um estudante, pode ter todas essas especificações, nome, idade e sexo.
+
+E isso nada mais é que uma Classe, elas dão origem a objetos.

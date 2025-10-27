@@ -1,0 +1,11 @@
+44 - Orientação Objetos - Métodos pt 01
+
+Métodos na primeira parte precisam de modificadores de acessos, e a segunda parte é o retorno, onde o método pode 
+retornar algo, bem como, não retornar nada.
+
+Usaremos o void, que significa que o método terá retorno vazio. 
+
+Logo após, teremos o nome do método, onde segue um convenção que quando é só uma palavra, é tudo minúsculo, mas 
+se for mais de uma, as primeiras letras das palavras são maiúsculas. Em seguida abre e fecha parênteses e abre 
+e fecha chaves, com isso, está feito o método,
+

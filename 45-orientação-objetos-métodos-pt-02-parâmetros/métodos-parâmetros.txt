@@ -1,0 +1,12 @@
+45 - Orientação Objetos - Métodos pt 02 - Parâmetros
+
+Parâmetros são variáveis locais.
+
+A sintaxe para fazer parâmetros é a seguinte 
+
+(int num1, int num2) 
+
+tem que ser usado os tipos primitivos ou os referenciais antes, nesse caso ai estamos usando o int.
+
+Para executar precisamos de dois parâmetros.
+

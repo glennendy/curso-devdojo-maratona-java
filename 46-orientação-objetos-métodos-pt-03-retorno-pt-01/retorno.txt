@@ -1,0 +1,8 @@
+46 - Orientação Objetos - Métodos pt 03 - Retorno pt 01
+
+No nosso código estamos criando um método onde nosso retorno vai ser um valor double,
+porém, não é só colocar na classse double result = calculadora.divideDoisNumeros(20,2)
+precisamos alterar no dominio, colocando também o double lá, bem como o return.
+Se colocarmos returno 0; vai executar sempre com zero, temos que colocar return (int) 
+(num1/num2) dessa forma irá executar a divisão que pedimos.
+

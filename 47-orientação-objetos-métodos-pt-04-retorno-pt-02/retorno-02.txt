@@ -1,0 +1,15 @@
+47 - Orientação Objetos - Métodos pt 04 - Retorno pt 02
+
+O vídeo discute diferentes abordagens para lidar com retornos de métodos e fluxo 
+de controle em Java, com foco específico em métodos que realizam divisão e como 
+lidar com divisões por zero. Demonstrando várias técnicas de codificação 
+para alcançar o mesmo resultado — seja retornar um valor ou imprimir uma saída —
+destacando o uso de instruções condicionais, retornos antecipados e métodos `void`.
+O vídeo enfatiza que, embora diferentes estilos de programação alcancem resultados 
+semelhantes, algumas abordagens podem ser mais limpas ou eficientes. Também explora 
+nuances como o uso de voidmétodos (que não retornam valores), por que não se pode 
+aninhar métodos `void` esperando um valor de retorno e o uso da returninstrução `return`
+para interromper a execução do método antecipadamente. Preferindo a validação
+e o término antecipados de um método para evitar a execução desnecessária de código, 
+afirmando que o estilo de programação é frequentemente pessoal e baseado em preferências 
+e experiências individuais. 

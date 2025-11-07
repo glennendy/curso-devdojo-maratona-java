@@ -1,0 +1,15 @@
+50 - Orientação Objetos - Métodos pt 07 - Parâmetros tipo referência pt 02
+
+Aborda o conceito de passagem de parâmetros por referência em programação, 
+particularmente no contexto da programação orientada a objetos, utilizando um exemplo 
+com uma classe de alunos. Explica como a passagem de objetos por referência
+significa que quaisquer alterações feitas no objeto dentro de um método afetam o objeto 
+original fora do método, devido à referência compartilhada. Esse comportamento contrasta 
+com a passagem por valor, onde uma cópia dos dados é criada, deixando o original inalterado. 
+Por meio de exemplos práticos com objetos de alunos, o vídeo destaca as potenciais armadilhas
+e perigos da passagem de parâmetros por referência, especialmente ao modificar atributos de 
+objetos dentro de métodos. Também enfatiza as melhores práticas de programação, 
+como evitar a modificação direta de objetos passados ​​por referência, sugerindo que as 
+alterações devem ser feitas, idealmente, retornando um novo objeto. Observando que a 
+compreensão desse conceito é fundamental para evitar erros e que mais detalhes serão 
+abordados em aulas subsequentes.

@@ -1,0 +1,16 @@
+49 - Orientação Objetos - Métodos pt 06 - Parâmetros tipo referência
+
+Esta videoaula foca-se na explicação do conceito de passagem de parâmetros por referência 
+em Java, especialmente ao trabalhar com objetos, em contraste com tipos de dados primitivos.
+Retomando um exemplo anterior utilizando uma classe "estudante" para demonstrar 
+como os objetos são gerenciados na memória e como as referências funcionam quando passadas 
+para métodos. A ênfase é colocada na compreensão de que, quando um objeto é passado como 
+parâmetro, o que é efetivamente passado é uma cópia da referência (endereço de memória),
+e não uma cópia independente do próprio objeto. Isto significa que múltiplas variáveis ​​
+podem apontar para o mesmo objeto na memória. Mostrando como criar objetos, 
+inicializá-los e passá-los para um método para imprimir os seus detalhes. A aula também 
+sublinha a importância de importar os pacotes corretos e trabalhar dentro do escopo 
+apropriado para evitar erros de compilação. Recursos visuais, como desenhos, são 
+utilizados para esclarecer como as referências apontam para objetos na memória. 
+Enfatiza a importância de compreender este conceito fundamental 
+para futuras tarefas de programação. 

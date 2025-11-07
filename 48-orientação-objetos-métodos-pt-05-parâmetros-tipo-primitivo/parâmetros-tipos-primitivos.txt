@@ -1,0 +1,16 @@
+48 - Orientação Objetos - Métodos pt 05 - Parâmetros tipo primitivo
+
+Esta aula foca-se na explicação do conceito de passagem de parâmetros em Java, 
+distinguindo especificamente entre como os tipos primitivos e os tipos de referência 
+são tratados quando passados ​​para métodos. Utilizando um exemplo prático de código, 
+demonstrando que, quando tipos primitivos (como inteiros) são passados ​​para 
+um método, o Java cria cópias desses valores em vez de passar referências. 
+Consequentemente, quaisquer modificações feitas aos parâmetros dentro do método 
+não afetam as variáveis ​​originais fora do método. O instrutor cria uma classe de 
+calculadora simples com um método que tenta modificar dois parâmetros inteiros, 
+mostrando através de instruções de impressão que os originais permanecem inalterados 
+após a chamada do método. A explicação enfatiza a importância de compreender este 
+comportamento para evitar confusão, particularmente para iniciantes que estão a 
+aprender como o Java gere memória e argumentos de métodos. A aula prepara o terreno 
+para uma discussão posterior sobre a passagem de objetos e tipos de referência, que 
+se comportarão de forma diferente devido à passagem de referências em vez de cópias.

@@ -1,0 +1,25 @@
+52 - Orientação Objetos - Métodos pt 09 - Varargs
+
+Aborda o conceito de passagem de parâmetros em métodos Java, especificamente o uso de 
+arrays e varargs (listas de argumentos de comprimento variável). 
+Começa ilustrando como passar um array de inteiros para um método e somar 
+seus elementos usando os tradicionais loops `for` e `for-each`. Em seguida, o vídeo 
+apresenta os varargs, um recurso mais recente do Java que permite passar um número 
+arbitrário de argumentos para um método sem a necessidade de criar um array explicitamente. 
+Demonstra como os varargs simplificam as chamadas de método, permitindo que os 
+desenvolvedores passem elementos individuais separados por vírgulas em vez de construir 
+um array manualmente.
+
+A explicação destaca as semelhanças entre arrays e varargs, enfatizando que varargs são 
+tratados internamente como arrays durante a execução. No entanto, varargs possuem regras 
+de sintaxe específicas: o parâmetro varargs deve ser o último na assinatura do método, e 
+apenas um parâmetro varargs é permitido por método. Isso ocorre porque o Java precisa 
+entender onde os argumentos variáveis ​​terminam e onde começam os demais parâmetros. O vídeo 
+também esclarece que varargs não podem ser seguidos por outros parâmetros e discute como 
+múltiplos parâmetros interagem com varargs em chamadas de método.
+
+Utilizando exemplos práticos com uma Calculatorclasse, mostrando como implementar e invocar 
+métodos com parâmetros do tipo array e varargs, e como somar números passados ​​de ambas as 
+maneiras. O vídeo conclui reforçando a ideia de que varargs oferecem uma maneira mais 
+limpa e legível de passar múltiplos argumentos do mesmo tipo para um método, tornando o
+código Java mais conciso e fácil de manter.

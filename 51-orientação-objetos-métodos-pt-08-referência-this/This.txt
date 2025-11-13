@@ -1,0 +1,15 @@
+51 - Orientação Objetos - Métodos pt 08 - Referência this
+
+A transcrição do vídeo apresenta uma explicação detalhada dos conceitos de programação 
+orientada a objetos, com foco específico em como usar referências e métodos dentro de 
+objetos na programação. Explicando como as variáveis ​​representam referências 
+que atuam como controles remotos para acessar e manipular os dados dentro dos objetos. 
+Usando um exemplo prático envolvendo uma classe "Aluno", o vídeo demonstra como métodos 
+como imprimir() podem ser usados ​​dentro de uma classe para acessar e exibir os 
+atributos do próprio objeto sem a necessidade de parâmetros externos. O conceito de 
+encapsulamento é destacado, mostrando que um objeto tem acesso a todos os seus dados 
+internos por meio da "this" palavra-chave "esse" (que se refere à instância atual do objeto). 
+O vídeo também aborda princípios de design de software, como coesão, enfatizando que, 
+embora às vezes seja conveniente para uma classe lidar com múltiplas responsabilidades 
+(por exemplo, representar um aluno e imprimir seus dados), geralmente é uma prática melhor 
+separar as responsabilidades para um código mais limpo e de mais fácil manutenção. 

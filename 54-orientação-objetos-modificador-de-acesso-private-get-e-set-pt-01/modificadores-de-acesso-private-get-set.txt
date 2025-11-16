@@ -1,0 +1,23 @@
+54 - Orientação Objetos - Modificador de acesso private, get e set pt 01
+
+Detalha os conceitos de acoplamento e coesãona programação orientada a objetos, usando 
+Java como linguagem principal para demonstração. Começa criando uma classe simples chamada 
+"Pessoa" (Pessoa) com dois atributos: nome(nome) e idade(idade). A discussão gira em torno 
+do grau de conexão entre as classes (acoplamento) e do foco de uma classe em uma única 
+responsabilidade (coesão). Enfatiza que alta coesão é benéfica porque significa que a 
+classe é focada e específica, enquanto alto acoplamento é problemático, pois dificulta a 
+manutenção e a compreensão. Ilustra como o acesso público a atributos de classe pode 
+aumentar o acoplamento, levando a problemas como a atribuição de dados incorretos 
+(por exemplo, idade negativa). Para mitigar isso, o apresentador introduz modificadores 
+de acesso, especificamente o modificador "private", para restringir o acesso direto aos 
+atributos de classe. Essa abordagem protege os dados e reduz o acoplamento, forçando a 
+interação por meio de métodos públicos.Em seguida, o apresentador explica a implementação 
+dos métodos getter e setter (acessores e modificadores) para atribuir e recuperar valores 
+de atributos com segurança. Os métodos setter incluem lógica de validação para evitar dados 
+inválidos (como uma idade negativa), promovendo o encapsulamento e protegendo o estado 
+interno do objeto. A convenção de nomenclatura para esses métodos também é discutida, 
+destacando a prática comum em Java de prefixar com “set” ou “get” seguido pelo nome do 
+atributo em maiúsculas.O vídeo conclui enfatizando a importância de manter baixo acoplamento 
+e alta coesão, utilizando atributos privados e métodos getter/setter públicos como padrão. 
+Esse design garante que as alterações dentro da classe não afetem o código externo que a 
+utiliza, melhorando a manutenção e a robustez do código.

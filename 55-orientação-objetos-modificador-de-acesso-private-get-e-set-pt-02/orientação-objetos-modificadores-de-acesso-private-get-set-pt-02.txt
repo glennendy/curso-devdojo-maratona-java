@@ -1,0 +1,15 @@
+55 - Orientação Objetos - Modificador de acesso private, get e set pt 02
+
+Aborda conceitos fundamentais da programação Java, com foco em princípios de orientação a 
+objetos, como modificadores de acesso, encapsulamento e uso de métodos dentro de um objeto. 
+Utilizando um exemplo simples envolvendo uma Personclasse para explicar como atributos 
+e métodos interagem, destacando especialmente a diferença entre acesso público e privado. 
+Enfatizando que atributos privados não podem ser acessados ​​diretamente por meio de 
+referências de objetos, enquanto atributos e métodos públicos podem ser acessados ​​e 
+manipulados. Também aborda as melhores práticas para acessar e modificar atributos de 
+objetos internamente, recomendando o uso de acesso direto a atributos dentro da classe em 
+vez de chamar getters ou setters desnecessariamente. Além disso, mencionando brevemente a 
+importância das assinaturas de métodos e o conceito de acoplamento, alertando sobre o 
+impacto que as alterações podem ter na estabilidade do código. Incentivando a visualizarem 
+esses conceitos para melhor compreender o encapsulamento de dados e o controle de acesso 
+em Java.

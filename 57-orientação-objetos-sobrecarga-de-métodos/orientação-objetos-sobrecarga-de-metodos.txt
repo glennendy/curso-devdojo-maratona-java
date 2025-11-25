@@ -1,0 +1,15 @@
+57 - Orientação Objetos - Sobrecarga de métodos
+
+Focando no conceito de sobrecarga de métodos em Java, usando um exemplo prático centrado 
+em uma classe "Anime". Criando uma classe básica com atributos como tipo e episódios e 
+demonstra como escrever métodos getter e setter manualmente. Adicionando incrementalmente 
+novos atributos, como nome e gênero, à classe, explicando os desafios de adaptar o código a 
+requisitos em constante evolução sem quebrar a funcionalidade existente. Para lidar com 
+esses desafios de forma eficiente, o instrutor apresenta a sobrecarga de métodos, mostrando 
+como múltiplos métodos com o mesmo nome, mas listas de parâmetros diferentes, podem 
+coexistir e simplificar a manutenção do código. Aborda a importância de evitar 
+assinaturas de métodos ambíguas na sobrecarga e destaca boas práticas, como delegar métodos 
+sobrecarregados para reduzir a duplicação de código. Conclui com uma demonstração 
+prática de depuração e execução de métodos sobrecarregados, enfatizando que a sobrecarga de 
+métodos ajuda a manter o código limpo e adaptável a mudanças sem interromper os sistemas 
+existentes.

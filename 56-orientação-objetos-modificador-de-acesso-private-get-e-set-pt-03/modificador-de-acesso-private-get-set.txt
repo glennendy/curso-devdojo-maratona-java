@@ -1,0 +1,16 @@
+56 - Orientação Objetos - Modificador de acesso private, get e set pt 03
+
+Abordando as melhores práticas para a criação de métodos setter e getter 
+em Java, enfatizando particularmente a importância do controle de acesso aos atributos da 
+classe. Usando um exemplo prático envolvendo uma classe de funcionário ( Funcionário),
+explicando como encapsular dados tornando os atributos da classe privados e, em 
+seguida, gerando os métodos getter e setter apropriados. O tutorial alerta sobre os riscos 
+de expor setters para certos atributos, como um campo calculado como o salário médio do 
+funcionário ( média), que não deve ser modificado arbitrariamente de fora da classe. Em vez 
+disso, o salário médio deve ser recalculado internamente e exposto apenas por meio de um 
+método getter, garantindo a integridade dos dados e aderindo aos princípios da programação 
+orientada a objetos. Demonstrando como gerar esses métodos de acesso rapidamente 
+usando atalhos da IDE e como fornecer acesso seletivo (somente leitura ou leitura e gravação)
+aos atributos, incluindo ou omitindo setters. Conclui reforçando o conceito de 
+proteção de campos de dados e controle de acesso para manter a lógica de negócios adequada 
+e evitar manipulação acidental de dados.
